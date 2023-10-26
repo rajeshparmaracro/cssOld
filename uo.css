@@ -1,0 +1,34 @@
+
+
+@font-face
+{
+	font-family:nfont;
+	src:url(anything.ttf);
+}
+try this-
+	background-image:url(../Media/s1.jpg);
+	background-repeat:no-repeat;/*try repeat-x and repeat-y*/
+	background-size:contain;/* try cover instead of contain*/
+	background-position:500px 50px ;
+	background-attachment: scroll;/*try fixed*/
+
+also try this code 
+	background-image:url(s1.jpg),url(s1.jpg);
+	background-position:left top,center;
+	background-repeat:no-repeat;
+	background-size:contain;
+
+
+
+this was made for iframe
+.positioned
+{
+	position:fixed; try relative and absolute isntead of fixed
+	height:200px;
+	width:300px;
+	top:50;
+	left:50;
+
+}
+
+

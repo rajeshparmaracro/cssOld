@@ -1,0 +1,131 @@
+body
+{
+	background-color:gray;
+}
+
+.teriummeed
+{
+	height:460px;/*Instead of px values, you can use pt (points), cm (centimeters) and % (percentage) values.*/
+	width:900px;/*we can also use min-width ,min-height ,max-width or max-height */
+	overflow-x:auto;/* try hidden instead of auto*/
+	overflow-y:auto;
+	margin:10px;
+	padding:10px;
+	border-style:solid ;
+	border-color:yellow;
+	border-width:20px;
+	border-radius:10px;	
+}
+
+#lyr
+{
+	background-color:gray;
+	text-align:center;
+	color:white;
+	
+}
+
+.lr
+{
+  color:#0000ff;
+  background-color:white;
+  font-size: 2.25em;/*em=pixels/16*/
+  text-shadow: rgba(0,0,255,1) -1px -2px 0.5em;
+  font-family: Helvetica, Arial, sans-serif;/*use any one from these*/
+  cursor:pointer;
+  border-radius:10px 10px 0px 0px;
+}
+
+
+#parag .para em 
+{
+	color: rgb(106,15,0);
+	background-color:gray;
+	font-size:x-large;
+}	
+
+
+ul
+{
+	font-size:20px;
+	list-style-image: url("../Medias2.jpg");
+	list-style-image
+	list-style-position: inside;/*default is outside*/
+	list-style-type: decimal, disc,circle, square,lower-alpha;
+}
+
+
+
+.l1{font-size:large;}
+.l2{font-size: medium;}
+.l3{font-size: small;}
+
+.l4{font-weight: lighter;}
+.l5{font-weight: bold;}
+.l6{font-weight: bolder;}
+.l7{font-weight: 700;}
+
+.l8{vertical-align: baseline;}
+.l9{vertical-align: sub;}
+.l10{vertical-align: super;}
+.l11{vertical-align: -10px;}
+
+.l12{text-decoration: none;}
+.l13{text-decoration: inherit;}
+.l14{text-decoration: overline;}
+.l15{text-decoration: underline;}
+.l16{text-decoration: line-through;}
+.l17{text-decoration: blink;}
+
+.l18 {text-indent: 20px;}
+
+.l19{white-space: pre;}
+.l20{white-space: pre-line;}
+.l21{white-space: pre-wrap;}
+
+.l22{font-variant: normal;}
+.l23{font-variant: small-caps;}
+
+.l24{letter-spacing: normal;}
+.l25{letter-spacing: 5px;}
+.l26{letter-spacing: -5px;}
+.l27{word-spacing: normal;}
+.128{word-spacing: 5px;}
+
+.l29{text-transform: lowercase;}
+.l30{text-transform: uppercase;}
+.l31{text-transform: capitalize;}
+
+.132{font-family: "Times New Roman", Times, serif;}
+.133{font-family: Helvetica, Arial, sans-serif;}
+.l34{font-family: "Courier New", Courier, monospace;}
+.l35{font-family:Florence, cursive;}
+.136{font-family:Blippo, fantasy;}
+.l37{font-family: Arial, "Helvetica Neue", Helvetica sans-serif;}/*It will try arial if browser not supports it it will try next one*/
+
+.138{font-style:italic;}
+.139{font-style:normal;}
+.l40{font-style:oblique;}
+
+#bdstyle
+{
+	color:white;
+	background-image:url("../Media/s1.jpg");
+	background-repeat:no-repeat;/*try repeat-x and repeat-y*/
+	background-size:cover;/*try contain*/
+	background-attachment:scroll;/*try fixed*/
+	border:solid blue 10px;
+	border-radius:10px;
+	margin:15px;
+	margin-top:20px;	
+}
+
+p.none   {border-style: none;}
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge  {border-style: ridge;}
+p.inset  {border-style: inset;}
+p.outset {border-style: outset;}
+p.hidden {border-style: hidden;}

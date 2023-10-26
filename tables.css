@@ -1,0 +1,55 @@
+.main
+ {
+	height:10%; width: 100%;
+	background-color: LightSkyBlue;
+	display: inline-table;
+ }
+ 
+ 
+.paragraph 
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+#table1 table
+{
+	text-align:center;
+	cellpadding:2;
+	cellspacing:0; 
+	height: 300px;width:400px;"
+}
+
+td.top {
+vertical-align: top;
+}
+td.middle {
+vertical-align: middle;
+}
+td.bottom {
+vertical-align: bottom;
+}
+
+#table2 table
+{
+border-collapse: separate;
+border-spacing: 20px 40px;
+}
+
+#table3{
+	margin-top: 1%;
+}
+
+caption
+{
+caption-side: top;
+
+}
+
+p
+{
+	display:table-column;
+}
+
+
